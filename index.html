@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Application</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <link rel="icon" href="assets/img/storm.png" type="image/x-icon">
+
+</head>
+<body style="background-color: black;">
+  <h1 style="color: white;">Weather Application</h1>
+  <div class="container">
+    <input type="text" id="cityInput" placeholder="Enter city name">
+    <button onclick="getWeather()"><img src="assets/img/search.png" height="12px"></button>
+    <div id="location"></div><br>
+    <div id="localtime" style="text-align: left; margin-left: 25px; font-weight: bold; font-size: 25px;"></div><br><br>
+
+        <div style="display: flex; justify-content: space-between;">
+          <div id="temperature" style="text-align: left; margin-left: 25px; font-weight: bold; font-size: 25px;"></div>
+          <div id="humidity" style="text-align: right; margin-right: 25px; font-weight: bold; font-size: 20px;"></div>
+        </div>
+<div style="display: flex; justify-content: space-between;">
+  <div id="wind-speed" style="text-align: left; margin-left: 25px; font-weight: bold; font-size: 25px;"></div>
+  <div id="feels-like" style="text-align: right; margin-right: 25px; font-weight: bold; font-size: 20px;"></div></div>
+        <div id="description" style="margin-top: 50px; font-weight: bold; font-size: 20px;" ></div>
+   
+      
+      <div class="weather-column">
+       
+        
+      </div>
+      
+    </div>
+  </div>
+
+
+</body>
+</html>

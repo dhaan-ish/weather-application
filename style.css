@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black ;
+}
+
+.container {
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  width: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 7px 7px white;
+  background-image: url("assets/img/3366845.jpg");
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 50px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 50px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.weather-info {
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.weather-column {
+    margin-top: 300px;
+  width: 50%;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.weather-column.right {
+    margin-top: 300px;
+  text-align: left;
+  margin-left: -150px;
+}
+
+#location, #region{
+  text-align: left;
+  font-size: 25px;
+  margin-top: 150px;
+  margin-left: 25px;
+  font-weight: bolder;
+}
