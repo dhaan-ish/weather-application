@@ -31,7 +31,7 @@ var apiKey = "YOUR_API";
 5. Save the changes and refresh the page. The application is now ready to use.
 
 ## API Usage
-This application utilizes the WeatherAPI to fetch weather data. You will need to sign up for an API key and replace 'YOUR_API' in the code with your actual API key.
+This application utilizes the [WeatherAPI](https://www.weatherapi.com/) to fetch weather data. You will need to sign up for an API key and replace 'YOUR_API' in the code with your actual API key.
 
 ## Customization
 You can customize the application by modifying the CSS styles in the <style> section of the HTML file. Feel free to change the background images, fonts, colors, or layout according to your preferences.
