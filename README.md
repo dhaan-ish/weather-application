@@ -11,7 +11,7 @@ This is a simple weather application that allows users to retrieve weather infor
 
 ## Demo
 
-You can see a live demo of the weather application [here](link_to_demo_if_available).
+You can see a live demo of the weather application [here](https://www.linkedin.com/posts/dhaanish-ahamed-1b950624a_weatherapp-webdevelopment-javascript-activity-7067099338606313472-Yb-4?utm_source=share&utm_medium=member_desktop).
 
 ## Installation
 
